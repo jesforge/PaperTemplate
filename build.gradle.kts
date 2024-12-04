@@ -67,4 +67,5 @@ paper {
     description = projectDescription
     main = mainClass
     authors = listOf("xyzjesper")
+    apiVersion = "1.19"
 }
