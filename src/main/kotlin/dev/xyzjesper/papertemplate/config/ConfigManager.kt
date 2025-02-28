@@ -13,4 +13,8 @@ object ConfigManager {
         settingsFile.writeText(json.encodeToString(settings))
     }
 
+    fun reload() {
+        settings = loadFromFile(settingsFile)
+    }
+    
 }
